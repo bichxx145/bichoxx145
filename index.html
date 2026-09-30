@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SN Community</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #4f46e5, #9333ea);
+    }
+
+    .logo {
+      width: 130px;
+      height: 130px;
+      margin: auto;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: white;
+      color: #4f46e5;
+      font-size: 38px;
+      font-weight: bold;
+      box-shadow: 0 0 25px rgba(255,255,255,0.6);
+    }
+
+    header h1 {
+      margin-top: 20px;
+      font-size: 44px;
+    }
+
+    header p {
+      margin: 12px 0 25px;
+      font-size: 18px;
+      color: #e5e7eb;
+    }
+
+    .discord-button {
+      display: inline-block;
+      padding: 14px 30px;
+      background: #5865f2;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 17px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .discord-button:hover {
+      background: #4752c4;
+      transform: scale(1.05);
+    }
+
+    .games-section {
+      padding: 50px 8%;
+      text-align: center;
+    }
+
+    .games-section h2 {
+      font-size: 32px;
+      margin-bottom: 35px;
+      color: #c4b5fd;
+    }
+
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 25px;
+    }
+
+    .game-card {
+      background: #1e293b;
+      padding: 25px;
+      border-radius: 18px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      transition: 0.3s;
+    }
+
+    .game-card:hover {
+      transform: translateY(-8px);
+      background: #334155;
+    }
+
+    .game-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 18px;
+    }
+
+    .game-card h3 {
+      color: #ddd6fe;
+      font-size: 23px;
+      margin-bottom: 10px;
+    }
+
+    .game-card p {
+      color: #cbd5e1;
+      margin-bottom: 20px;
+    }
+
+    .game-button {
+      display: inline-block;
+      padding: 10px 24px;
+      background: #7c3aed;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: 0.3s;
+    }
+
+    .game-button:hover {
+      background: #a855f7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 22px;
+      background: #020617;
+      color: #94a3b8;
+    }
+    .logo {
+      border: 50px;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="IMG_20260925_192959_429.png">
+
+    <h1>SN Community</h1>
+
+    <p>Join our gaming community and play with amazing players.</p>
+
+    <!-- Replace the link with your real Discord invite -->
+    <a 
+      href="https://discord.gg/PD3uXEesm"
+      target="_blank"
+      class="discord-button">
+      💬 Join Our Discord
+    </a>
+  </header>
+
+  <main class="games-section">
+    <h2>🎮 Featured Games</h2>
+
+    <div class="games">
+
+      <div class="game-card">
+        <img 
+          src="https://images.unsplash.com/photo-1542751371-adc38448a05e"
+          alt="Rocket League">
+
+        <h3>Rocket League</h3>
+        <p>Play competitive matches and improve your skills.</p>
+
+        <a href="#" class="game-button">Join Game</a>
+      </div>
+
+      <div class="game-card">
+        <img 
+          src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf"
+          alt="VALORANT">
+
+        <h3>VALORANT</h3>
+        <p>Team up with friends and dominate the battlefield.</p>
+
+        <a href="#" class="game-button">Join Game</a>
+      </div>
+
+      <div class="game-card">
+        <img 
+          src="https://images.unsplash.com/photo-1542751110-97427bbecf20"
+          alt="Counter Strike 2">
+
+        <h3>Counter-Strike 2</h3>
+        <p>Compete in tactical matches and climb the ranks.</p>
+
+        <a href="#" class="game-button">Join Game</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    © 2026 SN Community - All Rights Reserved
+  </footer>
+
+</body>
+</html>
